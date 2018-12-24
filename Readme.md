@@ -14,8 +14,4 @@ Then deploy it on k8s
 	
 	kubectl run flaskapp --image=gcr.io/<GCP project ID>/flaskapp --port 8080
 	
-<<<<<<< HEAD
 	kubectl expose deployment flaskapp --type=LoadBalancer --port 8080 --target-port 8080
-=======
-	kubectl expose deployment flaskapp --type=ClusterIP --port 8080 --target-port 8080
->>>>>>> 1a142fc2b5bb2c4fa320caf4405a988166dde9e1
